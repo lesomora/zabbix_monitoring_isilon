@@ -20,12 +20,12 @@ Health Cluster:
 Protocols: 
   * Support ftp 
   * Support http 
-	* Support nfs3 
-	*	Support nfs4 
-	* Support nlm 
-	* Support smb1 
-	* Support smb2 
-	* Support synciq
+  * Support nfs3 
+  * Support nfs4 
+  * Support nlm 
+  * Support smb1 
+  * Support smb2 
+  * Support synciq
 
 Dataset Info: 
   * Dataset Quota Used 
