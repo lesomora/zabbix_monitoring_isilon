@@ -34,7 +34,7 @@ Dataset Info:
 Python Monitoring RestAPI Items Support:
 
   * Node Balance Connection
-  * Snapshow Used 
+  * Snapshot Used 
   * Battery State PerNode 
   * Disk State PerNode
   * Node Uptime
