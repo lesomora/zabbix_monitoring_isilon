@@ -43,21 +43,21 @@ Installation Guide:
 
 Import zabbix template in frontweb interface: 
 
--> Configuration -> Templates -> Import -> Choose files
+* Configuration -> Templates -> Import -> Choose files
 
 Adding file mibs in proxy or server path is running SNMP:
 
--> mv ISILON-MIB.mib /usr/share/snmp/mibs/
+* mv ISILON-MIB.mib /usr/share/snmp/mibs/
 
 Python is 2.7 soon will upgrade to 3.7 
 
 Install requiriments packages: 
 
-pip install -r requiriments.txt 
+* pip install -r requiriments.txt 
 
 Adding scripts "connection.py, isi_functions.pyc and isi_monitoring.py" to externalscripts path: 
 
-mv *.py /usr/lib/zabbix/externalscripts/ 
+* mv *.py /usr/lib/zabbix/externalscripts/ 
 
 Only need configurate User and Password in connection.py
 
