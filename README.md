@@ -39,4 +39,38 @@ Python Monitoring RestAPI Items Support:
   * Disk State PerNode
   * Node Uptime
   
-Will Updade Soon
+Installation Guide: 
+
+Import zabbix template in frontweb interface: 
+
+-> Configuration -> Templates -> Import -> Choose files
+
+Adding file mibs in proxy or server path is running SNMP:
+
+-> mv ISILON-MIB.mib /usr/share/snmp/mibs/
+
+Python is 2.7 soon will upgrade to 3.7 
+
+Install requiriments packages: 
+
+pip install -r requiriments.txt 
+
+Adding scripts "connection.py, isi_functions.pyc and isi_monitoring.py" to externalscripts path: 
+
+mv *.py /usr/lib/zabbix/externalscripts/ 
+
+Only need configurate User and Password in connection.py
+
+Help: 
+
+usage: isi_monitoring.py [-h] [--item ITEM] [--hostname HOSTNAME]
+                         [--node NODEID] [--diskname DISKNAME]
+
+ISILON - Monitoring
+
+optional arguments:
+  -h, --help           show this help message and exit
+  --item ITEM          Informe o item de Monitoracao
+  --hostname HOSTNAME  Informe o hostname do storage
+  --node NODEID        Informe o node ID
+  --diskname DISKNAME  Informe o diskname do node
